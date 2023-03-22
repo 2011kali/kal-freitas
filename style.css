@@ -4,16 +4,16 @@ header{
 .caixa{ 
 	position: absolute;
  width: 940px;
-  margin: 0 auto; 
+  margin: 0  auto; 
 } 
 nav{
  position: absolute;
  top: 110px;
-  right: 0;
+  right: 50;
 }
  nav li{
   display: inline;
-  margin: 0 0 0 15px;
+  margin: 0 0 0 20px;
 } 
  nav a{
   text-transform: uppercase; 
@@ -28,10 +28,35 @@ nav{
 } 
   form{
  margin: 40px 0;
-} 
+}
+
+form label, form legend{
+  display: block;
+  font-size: 20px;
+  margin: 0 0 10px;
+}
 .input-padrao{
  display: block;
  margin: 0 0 0 20px;
  padding: 10px 25px;
   width: 50%;
+}
+.checkbox{
+  margin: 20px 0;
+}
+.enviar{
+  width: 30%;
+  padding: 15px 0;
+  background: darkslateblue;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  transition: 1s all;
+  cursor: pointer;
+}
+.enviar:hover {
+  background: navy;
+  transform: scale(1.2);
 }
