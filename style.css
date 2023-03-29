@@ -37,7 +37,7 @@ form label, form legend{
 }
 .input-padrao{
  display: block;
- margin: 0 0 0 20px;
+ margin: 0 0 20px;
  padding: 10px 25px;
   width: 50%;
 }
@@ -45,7 +45,7 @@ form label, form legend{
   margin: 20px 0;
 }
 .enviar{
-  width: 30%;
+  width: 40%;
   padding: 15px 0;
   background: darkslateblue;
   color: white;
@@ -72,6 +72,6 @@ thead{
 }
 
 td,th{
-  border: 1px solid #000000;
+  border: 2px solid #000000;
   padding: 8px 15px ;
 }
