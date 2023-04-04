@@ -1,11 +1,11 @@
 header{
- background: #BBBBBB; 
-} 
-.caixa{ 
+ background: #BBBBBB;
+}
+.caixa{
 	position: relative;
  width: 940px;
-  margin: 0  auto; 
-} 
+  margin: 0  auto;
+}
 nav{
  position: absolute;
  top: 110px;
@@ -14,18 +14,18 @@ nav{
  nav li{
   display: inline;
   margin: 0 0 0 20px;
-} 
+}
  nav a{
-  text-transform: uppercase; 
+  text-transform: uppercase;
  	color: #000000;
   font-weight: bold;
-  font-size: 20px; 
+  font-size: 20px;
   text-decoration: none;
-} 
+}
  main{
   width: 940px;
   margin: 0 auto;
-} 
+}
   form{
  margin: 40px 0;
 }
@@ -74,4 +74,14 @@ thead{
 td,th{
   border: 2px solid #000000;
   padding: 8px 15px ;
+}
+footer{
+  text-align: center;
+  background:#000000;
+  padding: 40px 0;
+}
+.copyright{
+  color: #ffffff;
+  font-size: 13px;
+  margin: 20px 0 0;
 }
